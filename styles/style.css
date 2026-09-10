@@ -1,3 +1,25 @@
+
 .header {
-  display: grid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 92px 50px 96px 50px;
+  background-color: white;
 }
+
+.menu {
+  display: flex;
+  gap: 24px;
+  padding: 133px 36px 138px 50;
+  margin: 0;
+}
+
+.logo {
+
+}
+
+.cover {
+
+}
+
+
