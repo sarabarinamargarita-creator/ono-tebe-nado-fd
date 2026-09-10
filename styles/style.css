@@ -1,25 +1,63 @@
 
 .header {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 50px 96px 50px;
-  background-color: white;
+  padding: 96px 50px;
+}
+
+.nav {
+  justify-self: start;
 }
 
 .menu {
   display: flex;
-  gap: 24px;
+  gap: 13px;
   padding: 133px 36px 138px 50;
   margin: 0;
 }
 
 .logo {
+display: block;
+width: 148px; 
+justify-self: center;
+}
 
+.address {
+  justify-self: flex-end;
+  display: block;
+  flex-direction: column;
+  gap: 4px;
+  font-style: normal;
+  width: 240px;
+}
+
+.address a {
+  display: block;
+}
+
+.address__text {
+  margin: 0;
+  width: 100%;
 }
 
 .cover {
 
 }
 
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 92px 50px 96px 50px;
+  background-color: white;
+}
+.menu_footer {
+  
 
+}
+/*убрать подчеркивание разобраться с Главная*/
+
+.social {
+ 
+}
