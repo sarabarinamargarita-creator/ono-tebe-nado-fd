@@ -3,33 +3,57 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 96px 50px;
+  padding: 92px 50px 96px 50px;
+  background-color: #fff;
 }
 
-.nav {
+.header__menu {
   justify-self: start;
 }
 
-.menu {
+.header__links-list {
   display: flex;
-  gap: 13px;
-  padding: 133px 36px 138px 50;
-  margin: 0;
+  gap: 14px;
+  margin: auto;
+  padding: 0;
+  list-style: none;
 }
 
-.logo {
+.header__links-list-item:not(.header__links-list-item_no-bullit)::before {
+  content: "◦";
+  margin-right: 8px;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__link{
+text-decoration: underline;
+}
+
+.header__link_active {
+text-decoration: none;
+}
+
+.header_logo {
 display: block;
 width: 148px; 
 justify-self: center;
 }
 
-.address {
-  justify-self: flex-end;
-  display: block;
+.header_logo-image {
+
+}
+
+.header__address {
+  all: unset;
+  max-width: 1100px;
+  justify-self: end;
+  display: flex;
   flex-direction: column;
-  gap: 4px;
+  align-items: flex-start;
   font-style: normal;
-  width: 240px;
 }
 
 .address a {
