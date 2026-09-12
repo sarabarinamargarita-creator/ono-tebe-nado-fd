@@ -71,8 +71,11 @@ justify-self: center;
   background-size: cover;
   background-position: center;
   min-height: 757px;
-  padding: 165px 50px 207px 50px;
-  color: #fff
+  padding: 0 50px 50px 50px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .overlay {
@@ -120,8 +123,107 @@ text-align: left;
 
 .cover__description {
   display: flex;
-  word-spacing: 50px;
-  text-transform: uppercase ;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  z-index: 2;
+}
+
+.cover__description-text {
+word-spacing: 31px;
+font-size: 22px;
+line-height: 28px;
+margin: 0;
+text-transform: uppercase;
+}
+
+.bet-button {
+  appearance: none;
+  border: 1px solid #fff;
+  background: transparent;
+  padding: 12px 32px;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+  text-transform: uppercase;
+}
+
+.lots {
+  padding: 180px 24px;
+}
+
+.lots__heading {
+font-size: 40px;
+margin-bottom: 24px;
+}
+
+.lots__card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.lots__card-list-item {
+  width: 430px;
+  min-height: 450px;
+}
+
+.card-link {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+
+.card {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.card_type_film {
+  background-image: url('../images/card-lot-01.jpg');
+}
+
+.card_type_book {
+   background-image: url('../images/card-lot-02.jpg');
+}
+
+.card_type_picture {
+  background-image: url('../images/card-lot-03.jpg');
+}
+
+.card__title,
+.card__text {
+  position: relative;
+  z-index: 2;
+}
+
+.card__title {
+  font-size: 24px;
+  margin: 0 0 16px 0;
+}
+
+.card__text {
+  font-size: 16px;
+  margin: 0;
+}
+
+.lots__look-more-link {
+  display: inline-block;
+  margin-top: 40px;
+  color: #000
 }
 
 .footer {
