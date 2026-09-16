@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 95px 50px;
+  padding: 96px 50px;
   background-color: #fff;
 }
 
@@ -12,7 +12,7 @@
 
 .header__links-list {
   display: flex;
-  gap: 14px;
+  gap: 15px;
   padding: 0;
   list-style: none;
 }
@@ -257,7 +257,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
+  margin: 35px;
 }
 
 .about__logo-image {
@@ -269,7 +269,7 @@
 .about__title {
   font-size: 37px;
   text-transform: uppercase;
-  margin: 105px 0 30px;
+  margin: 120px 0 30px;
 }
 
 .about__text {
