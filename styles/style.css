@@ -7,12 +7,12 @@
 }
 
 .header__menu {
-  justify-self: start;
-  width: 391.48px;
+  justify-self: center;
 }
 
 .header__links-list {
   display: flex;
+  justify-content: space-between;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -20,8 +20,8 @@
 
 .header__links-list-item:not(.header__links-list-item_no-bullit)::before {
   content: "◦";
-  margin-right: 15px;
-  margin-left: 15px;
+  margin-right: 14px;
+  margin-left: 14px;
 }
 
 .header__links-list-item_no-bullit {
@@ -52,7 +52,6 @@
 .header__address {
   margin: 0;
   font-style: normal;
-  max-width: 1100px;
   justify-self: end;
   display: flex;
   flex-direction: column;
@@ -112,14 +111,14 @@
 
 .aligned-text_center {
   top: 300px;
-  left: 0;
+  left: 50px;
   right: 0;
   text-align: center;
 }
 
 .aligned-text_right {
   top: 435px;
-  left: 640px;
+  left: 670px;
 }
 
 .description {
@@ -131,7 +130,7 @@
   position: absolute;
   left: 50px;
   right: 50px;
-  bottom: 61px;
+  bottom: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -172,7 +171,7 @@
 
 .lots__heading {
   font-size: 40px;
-  margin-bottom: 24px;
+  margin-bottom: 27px;
   margin-left: 40px;
   text-transform: uppercase;
 }
@@ -204,7 +203,7 @@
   flex-direction: column;
   justify-content: space-between;
   min-height: 596px;
-  padding: 48px 24px;
+  padding: 48px 40px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -233,21 +232,25 @@
   text-transform: uppercase;
   text-decoration: underline;
   text-align: left;
+  line-height: 1.2;
   font-size: 22px;
   margin: 0;
 }
 
 .card__text {
-  font-size: 16px;
+  font-size: 20px;
+  line-height: 1.2;
   text-transform: none;
   text-decoration: none;
   margin: 0;
+  font-weight: 400;
 }
 
 
 
 .lots__look-more-link {
   display: inline-block;
+  font-size: 20px;
   margin-top: 30px;
   margin-left: 40px;
   color: #000;
@@ -299,7 +302,6 @@
   align-items: start;
   margin-top: 180px;
   padding: 60px 50px;
-  min-height: 180px;
   font-size: 18px;
 }
 
