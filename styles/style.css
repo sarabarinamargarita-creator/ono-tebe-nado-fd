@@ -261,7 +261,8 @@
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
-  gap: 72px;
+  gap: 25px;
+  padding: 0 24px;
 }
 
 .about__logo {
@@ -272,7 +273,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
+  margin: 35px auto 0;
 }
 
 .about__logo-image {
@@ -282,9 +283,11 @@
 }
 
 .about__title {
-  font-size: 37px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
   text-transform: uppercase;
-  margin: 133px 0 100px;
+  margin: 131px 0 100px;
 }
 
 .about__text {
@@ -292,6 +295,7 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+  margin: 0;
 }
 
 
