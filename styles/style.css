@@ -21,7 +21,8 @@
 
 .header__links-list-item {
   display: list-item;
-  margin-left: 20px;
+  margin-left: 26px;    
+  padding-left: 4px;
 }
 
 .header__links-list-item_no-bullit {
@@ -52,9 +53,12 @@
 }
 
 .header__address {
+  align-self: start;
+  margin-top: 3px;
   justify-self: end;
   align-items: flex-start;
   font-size: 18px;
+  max-width: 240px;
 }
 
 
@@ -131,7 +135,7 @@
 }
 
 .cover__description-text {
-  word-spacing: 10px;
+  word-spacing: 11px;
   letter-spacing: 0.05em;
   font-size: 22px;
   line-height: 28px;
@@ -297,7 +301,7 @@
   gap: 40px;
   align-items: start;
   margin-top: 180px;
-  padding: 90px 50px;
+  padding: 50px 50px;
   font-size: 18px;
 }
 
