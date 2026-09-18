@@ -21,7 +21,7 @@
 
 .header__links-list-item {
   display: list-item;
-  margin-left: 26px;    
+  margin-left: 24px;    
   padding-left: 4px;
 }
 
@@ -136,7 +136,7 @@
 
 .cover__description-text {
   word-spacing: 11px;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.06em;
   font-size: 22px;
   line-height: 28px;
   margin: 0;
@@ -283,7 +283,7 @@
   font-weight: 700;
   line-height: 1;
   text-transform: uppercase;
-  margin: 136px 0 100px;
+  margin: 137px 0 100px;
 }
 
 .about__text {
@@ -301,13 +301,14 @@
   gap: 40px;
   align-items: start;
   margin-top: 180px;
-  padding: 50px 50px;
+  padding: 0 50px 82px;
   font-size: 18px;
 }
 
 .address {
   display: flex;
   flex-direction: column;
+  gap: 1px;
   font-style: normal;
   margin: 0;
 }
